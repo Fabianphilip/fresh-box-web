@@ -1,36 +1,258 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🥬 FreshBox
 
-## Getting Started
+> **Fresh groceries. Delivered fresh. Powered by local vendors.**
 
-First, run the development server:
+FreshBox is a modern grocery delivery platform designed to connect customers with trusted local vendors, making it easy to order fresh fruits, vegetables, groceries, and household essentials directly from a mobile app.
+
+This repository contains the official **FreshBox Landing Page** built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**.
+
+---
+
+## 🌍 Vision
+
+FreshBox is building the future of grocery shopping by connecting:
+
+* 🛒 Customers
+* 🏪 Local Vendors
+* 🚜 Farmers
+* 🛵 Delivery Partners
+
+Our mission is to make fresh food more accessible, affordable, and convenient through technology.
+
+---
+
+# ✨ Features
+
+The current landing page includes:
+
+* ✅ Modern responsive UI
+* ✅ Beautiful Hero section
+* ✅ Why FreshBox section
+* ✅ How It Works section
+* ✅ App Preview section
+* ✅ Download App section (Coming Soon)
+* ✅ Contact section
+* ✅ WhatsApp integration
+* ✅ Social media links
+* ✅ Responsive navigation
+* ✅ Mobile-first design
+* ✅ SEO-friendly structure
+
+---
+
+# 🚀 Tech Stack
+
+* Next.js 16
+* React
+* TypeScript
+* Tailwind CSS
+* React Icons
+* Vercel
+
+---
+
+# 📁 Project Structure
+
+```text
+fresh-box-web/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── Features.tsx
+│   ├── WhyFreshBox.tsx
+│   ├── HowItWorks.tsx
+│   ├── Download.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+│
+├── public/
+│   ├── images/
+│   ├── logo/
+│   └── app/
+│
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+└── README.md
+```
+
+---
+
+# 💻 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Fabianphilip/fresh-box-web.git
+```
+
+Move into the project
+
+```bash
+cd fresh-box-web
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 📦 Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+Create an optimized production build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run the production server
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 🌟 Current Sections
+
+* Hero
+* Features
+* Why FreshBox
+* How It Works
+* Mobile App Preview
+* Download App
+* Contact
+* Footer
+
+---
+
+# 📱 Future Roadmap
+
+FreshBox is actively under development.
+
+Upcoming features include:
+
+* 📱 Customer Mobile App
+* 🏪 Vendor Dashboard
+* 🚜 Farmer Portal
+* 🛵 Delivery Rider App
+* 📍 Live Order Tracking
+* 💳 Secure Payments
+* 🔔 Push Notifications
+* ⭐ Ratings & Reviews
+* 🎁 Referral & Rewards
+* 🤖 AI Product Recommendations
+* 📊 Vendor Analytics
+* 🏦 Fintech & Agency Banking Integration
+
+---
+
+# 🌱 Why FreshBox?
+
+FreshBox helps solve everyday grocery shopping challenges by:
+
+* Connecting customers directly with trusted vendors.
+* Supporting local farmers and businesses.
+* Delivering fresh produce quickly.
+* Making grocery shopping fast, simple, and reliable.
+* Creating economic opportunities for vendors and delivery partners.
+
+---
+
+# 🎯 Project Goals
+
+Our goal is to become Africa's leading digital grocery marketplace by providing a seamless shopping experience while empowering local communities through technology.
+
+---
+
+# 🌐 Deployment
+
+This application is optimized for deployment on **Vercel**.
+
+After deployment, it will be accessible via:
+
+```
+https://freshboxhq.com
+```
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a new feature branch.
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes.
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push your branch.
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 👨‍💻 Author
+
+### Fabian Philip
+
+Founder & Product Lead — **FreshBox**
+
+GitHub:
+
+https://github.com/Fabianphilip
+
+---
+
+# ⭐ Support
+
+If you find this project helpful, please consider giving it a **⭐ Star** on GitHub.
+
+Your support helps improve FreshBox and encourages continued development.
+
+---
+
+## 💚 FreshBox
+
+**Fresh groceries. Trusted vendors. Fast delivery.**
+
+Building the future of grocery commerce, one delivery at a time.
