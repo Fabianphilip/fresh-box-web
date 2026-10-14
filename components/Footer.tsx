@@ -105,7 +105,16 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-gray-700 pt-8 text-center text-sm">
 
-          © 2026 FreshBox. All rights reserved.
+          <p>© 2026 FreshBox. All rights reserved.</p>
+
+          <div className="mt-4">
+            <a
+              href="/privacy-policy"
+              className="transition hover:text-green-400 hover:underline"
+            >
+              Privacy Policy
+            </a>
+          </div>
 
         </div>
 
